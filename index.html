@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="src/images/icons/logo.png">
+    <link rel="stylesheet" href="dist/css/plugins/animate.min.css">
+    <link rel="stylesheet" href="dist/css/plugins/slick.css">
+    <link rel="stylesheet" href="dist/css/plugins/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
+    <script src="dist/scripts/plugins/less.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кальянная Мята Lounge</title>
+</head>
+<body>
+<div class="bg-header">
+    <header class="header">
+        <div class="smoke-bg">
+            <img src="src/images/smoke.webp" alt="SmokeBg">
+        </div>
+        <div class="container">
+            <div class="header-info wow animate__animated animate__fadeInLeft">
+                <div class="header-info-logo">
+                    <a href="#">
+                        <img src="src/images/icons/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="header-info-address">
+                    <p>Нижний Новгород, Ильинская улица, 3</p>
+                </div>
+
+            </div>
+            <div class="header-phone-work wow animate__animated animate__fadeInRight">
+                <div class="header-info-phone">
+                    <p>+7 (964) 837-73-74</p>
+                </div>
+                <div class="header-time-work">
+                    <div class="header-time-work-one">
+                        <p>Вс-Чт 12:00-02:00</p>
+                    </div>
+                    <div class="header-time-work-two">
+                        <p>Пт-Сб 12:00-06:00</p>
+                    </div>
+                </div>
+            </div>
+            <div id="header-menu">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="23px" height="16px">
+                    <image x="0px" y="0px" width="23px" height="16px"
+                           xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAQCAQAAABXJiyTAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnCgsPJhH4FvrRAAAAKklEQVQoz2P4f/g/8eAwEwMpgJHxP0nqSTN9sCk/zPCfaDgakHiU0zIgATo6XFqUDAeZAAAAAElFTkSuQmCC"/>
+                </svg>
+            </div>
+        </div>
+        <div class="block-menu" id="block-menu">
+            <div class="block-menu-title">
+                <div class="title-text">
+                    <p>Меню</p>
+                </div>
+                <div class="close" id="close">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="17px" height="17px">
+                        <image x="0px" y="0px" width="17px" height="17px"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAQAAACRZI9xAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfnCgsPMjCa0T3aAAAAeklEQVQoz23QsQ2EQAxE0WloY1q5kJBCiWgDCQmIqOAT7MGuzciZ9ZL5YmalIHuFlVnswGlR4QR2MXBZVMHFIDx6AaqPjDrwkIgCaKShXwQ9eRARRCLGPxn773cmed135pQTmA45gemQkQMJeRCQ2CxoaBMLhwUVHSw3cimCorvg54kAAAAASUVORK5CYII="/>
+                    </svg>
+                </div>
+            </div>
+            <div class="block-menu-description">
+                <ul>
+                    <li><a href="#order">Бронирование столика</a></li>
+                    <li><a href="#menu">Наше меню</a></li>
+                    <li><a href="#places">3-D тур по кальянной</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#feedback">Отзывы гостей</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="container">
+            <div class="banner-info wow animate__animated animate__jackInTheBox">
+                <div class="banner-info-title">
+                    <h1>КАЛЬЯННАЯ <span class="another-color">МЯТА</span> LOUNGE</h1>
+                </div>
+                <div class="banner-info-description">
+                    <span>Качество и атмосфера вашего отдыха</span>
+                </div>
+                <div class="hookah-hide">
+                    <img src="src/images/hookah-adaptive.png" alt="Hookah Adaptive">
+                </div>
+                <div class="buttons">
+                    <a href="#menu">
+                        <button class="btn watch-menu">Посмотреть меню</button>
+                    </a>
+                    <a href="#order">
+                        <button class="btn change-table">Забронировать столик</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<main>
+    <section class="property">
+        <div class="container">
+            <div class="property-title wow animate__animated animate__zoomIn">
+                <h2>Почему нас выбирают?</h2>
+            </div>
+            <div class="property-info">
+                <div class="circle">
+                    <img src="src/images/circle.png" alt="Circle">
+                    <p class="property-info-text one wow animate__animated animate__rotateInDownLeft">Находимся <span
+                            class="base-color">в самом центре</span> Нижнего
+                        Новгорода</p>
+                    <p class="property-info-text two wow animate__animated animate__rotateInDownLeft">Собственная
+                        удобная
+                        <span class="base-color">большая парковка</span>
+                    </p>
+                    <p class="property-info-text three wow animate__animated animate__rotateIn"><span
+                            class="base-color">Sony PS</span>
+                        и <span class="base-color">настольные игры</span>
+                        для душевного отдыха</p>
+                    <p class="property-info-text four wow animate__animated animate__rotateInDownRight"><span
+                            class="base-color">5 лет</span> в дымной индустрии</p>
+                    <p class="property-info-text five wow animate__animated animate__rotateInDownRight">Более <span
+                            class="base-color">100 видов</span> табака из разных
+                        стран</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="container">
+            <div class="video-title wow animate__animated animate__zoomIn">
+                <h2>Почувствуй мягкую атмосферу</h2>
+            </div>
+            <div class="videos single-item">
+                <div>
+                    <iframe width="100%" height="600px"
+                            src="https://www.youtube.com/embed/YrsjcJTCTUc?si=IvO4QicB_wx5TtoR"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+                                                    web-share"
+                            allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe width="100%" height="600px"
+                            src="https://www.youtube.com/embed/55bZFy93zss?si=C3Q_7i4eQeR69wlG"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+                                                    web-share"
+                            allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe width="100%" height="600px"
+                            src="https://www.youtube.com/embed/8zCH7-nRkUI?si=em-xEDW47FlNpC7s"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+                                                        web-share"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+            <div class="bg-grass">
+                <img src="src/images/grass.png" alt="Grass">
+            </div>
+        </div>
+    </section>
+    <section class="menu">
+        <div class="container">
+            <div class="menu-title wow animate__animated animate__zoomIn" id="menu">
+                <h2>Наше меню</h2>
+            </div>
+            <div class="menu-items">
+                <div class="bg-menu">
+                    <img src="src/images/menu-bg.png" alt="Menu Bg">
+                </div>
+                <div class="menu-items-title">
+                    <h2>Мята lounge</h2>
+                </div>
+                <div class="menu-item-block">
+                    <fieldset class="menu-item">
+                        <legend class="menu-price">
+                            <p>900 ₽</p>
+                        </legend>
+                        <div class="menu-item-text">
+                            <p class="wow animate__animated animate__flipInX">Sherbe</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-1s">Adalya</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-2s">Afzal</p>
+                        </div>
+                    </fieldset>
+                    <fieldset class="menu-item">
+                        <legend class="menu-price">
+                            <p>1 100 ₽</p>
+                        </legend>
+                        <div class="menu-item-text">
+                            <p class="wow animate__animated animate__flipInX">Darkside</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-1s">Fumari</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-2s">Nakhla</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-3s">Tangiers</p>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="menu-item">
+                        <legend class="menu-price">
+                            <p>1 400 ₽</p>
+                        </legend>
+                        <div class="menu-item-text">
+                            <p class="wow animate__animated animate__flipInX">Мохито</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-1s">Баунти</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-2s">Фараон</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-3s">Дамский</p>
+                        </div>
+                    </fieldset>
+                    <fieldset class="menu-item">
+                        <legend class="menu-price">
+                            <p>1 700 ₽</p>
+                        </legend>
+                        <div class="menu-item-text">
+                            <p class="wow animate__animated animate__flipInX">Яблоко</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-1s">Апельсин</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-2s">Грейпфрут</p>
+                        </div>
+                    </fieldset>
+                    <fieldset class="menu-item">
+                        <legend class="menu-price">
+                            <p>2 000 ₽</p>
+                        </legend>
+                        <div class="menu-item-text">
+                            <p class="wow animate__animated animate__flipInX">Кокос</p>
+                            <p class="wow animate__animated animate__flipInX animate__delay-1s">Ананас</p>
+                        </div>
+                    </fieldset>
+                    <fieldset class="menu-item">
+                        <legend class="menu-price">
+                            <p>3 000 ₽</p>
+                        </legend>
+                        <div class="menu-item-text">
+                            <p class="wow animate__animated animate__flipInX">Фирменный кальян мята</p>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="places" id="places">
+        <div class="container">
+            <div class="places-title wow animate__animated animate__zoomIn">
+                <h2>Наши залы</h2>
+            </div>
+            <div class="places-items">
+                <div class="places-item wow animate__animated animate__lightSpeedInLeft">
+                    <div class="places-items-info">
+                        <div class="places-items-info-title">
+                            <p>Для больших компаний</p>
+                        </div>
+                        <div class="places-items-info-description">
+                            <p>Что может быть лучше, чем проводить время в шумной и дружной компании? Правильно,
+                                проводить
+                                время
+                                в отдельном зале! VIP комната или lounge зона, выбор за вами!</p>
+                        </div>
+                    </div>
+                    <div class="places-items-image">
+                        <img src="src/images/places/group.png" alt="Group">
+                    </div>
+                </div>
+                <div class="places-item wow animate__animated animate__lightSpeedInRight">
+                    <div class="places-items-info">
+                        <div class="places-items-info-title">
+                            <p>Банкеты и дни рождения</p>
+                        </div>
+                        <div class="places-items-info-description">
+                            <p>Праздник это к нам. Ведь у нас любое важное событие становится
+                                не только веселым, но и выгодным для вас!</p>
+                        </div>
+                    </div>
+                    <div class="places-items-image">
+                        <img src="src/images/places/balloons.png" alt="Balloons">
+                    </div>
+                </div>
+                <div class="places-item wow animate__animated animate__lightSpeedInLeft">
+                    <div class="places-items-info">
+                        <div class="places-items-info-title">
+                            <p>Игровая зона PS5</p>
+                        </div>
+                        <div class="places-items-info-description">
+                            <p>Погрузитесь в мир консольных баталий на качественном уровне! Незабываемые впечатления и
+                                все
+                                новые
+                                игры ждут вас!</p>
+                        </div>
+                    </div>
+                    <div class="places-items-image">
+                        <img src="src/images/places/joystick.png" alt="Joystick">
+                    </div>
+                </div>
+                <div class="places-item wow animate__animated animate__lightSpeedInRight">
+                    <div class="places-items-info">
+                        <div class="places-items-info-title">
+                            <p>Место для свидания</p>
+                        </div>
+                        <div class="places-items-info-description">
+                            <p>Пожалуй, лучший подарок для любимого человека. Ощущение праздника романтики окружит вас
+                                мгновенно, как только вы зайдете.</p>
+                        </div>
+                    </div>
+                    <div class="places-items-image">
+                        <img src="src/images/places/heart.png" alt="Heart">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form" id="order">
+        <div class="container">
+            <div class="bg-form">
+                <img src="src/images/bg-form.png" alt="Bg Form">
+            </div>
+            <div class="block-hide">
+                <div class="form-title wow animate__animated animate__zoomIn">
+                    <h2>Бронирование столика</h2>
+                </div>
+                <div class="form-info wow animate__animated animate__bounceIn">
+                    <p>Заполните форму и с вами свяжется менеджер для подтверждения брони</p>
+                </div>
+                <form class="order">
+                    <div class="error-block wow animate__animated animate__fadeInRight">
+                        <input type="text" class="input" placeholder="Ваше имя" id="name">
+                        <div class="error-input name" id="error-input-name">Необходимо ввести ваше Имя</div>
+                    </div>
+                    <div class="error-block wow animate__animated animate__fadeInLeft">
+                        <input type="text" class="input mask-phone form-control" placeholder="+7 (___) ___-__-__"
+                               id="phone">
+                        <div class="error-input phone" id="error-input-phone">Необходимо ввести ваш номер телефона</div>
+                    </div>
+                    <div class="error-block wow animate__animated animate__fadeInRight">
+                        <div class="select-box">
+                            <input class="input select-text" placeholder="Выберите время" maxlength="5" id="time">
+                            <div class="select-time">
+                                <ul>
+                                    <li class="active">22:00</li>
+                                    <li class="active">22:30</li>
+                                    <li class="active">23:00</li>
+                                    <li class="active">23:30</li>
+                                    <li class="active">00:00</li>
+                                    <li class="inactive">00:30</li>
+                                    <li class="inactive">01:00</li>
+                                    <li class="active">01:30</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="error-input time" id="error-input-time">Необходимо выбрать время бронирования</div>
+                    </div>
+                    <button type="button" class="btn booking bn5 wow animate__animated animate__fadeInLeft" id="submit">
+                        Забронировать столик
+                    </button>
+                </form>
+            </div>
+            <div class="order-form-thanks">
+                <img src="src/images/close-thanks.png" alt="Close" class="close-thanks">
+                <h2>Спасибо, что выбрали нас!</h2>
+                <p>Столик забронирован</p>
+                <p><span class="time-date">Дата: </span><span id="date-order"></span></p>
+                <p class="bottom"><span class="time-date">Время: </span><span id="time-order"></span></p>
+                <p>В течение 10 минут с вами свяжется менеджер для подтверждения брони.
+                    Пожалуйста, ожидайте.</p>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="bg-fb-footer">
+    <div class="feedback">
+        <div class="container">
+            <div class="fb-title wow animate__animated animate__zoomIn" id="feedback">
+                <h2>Отзывы гостей</h2>
+            </div>
+            <div class="fb-items">
+                <div class="fb-item">
+                    <div class="fb-item-header">
+                        <div class="fb-photo-guest">
+                            <img src="src/images/guest-photos/guest1.png" alt="Guest1">
+                        </div>
+                        <div class="fb-guest-name">
+                            <p>Сергей Калугин</p>
+                            <p>постоянный гость</p>
+                        </div>
+                    </div>
+                    <div class="fb-item-text">
+                        <p>Очень уютное заведение, прекрасные кальяны, очень клёвая чайная карта, отзывчивый персонал,
+                            прекрасная шаговая доступность от метро, собственная паркова. </p>
+                    </div>
+                </div>
+                <div class="fb-item">
+                    <div class="fb-item-header">
+                        <div class="fb-photo-guest">
+                            <img src="src/images/guest-photos/guest2.png" alt="Guest2">
+                        </div>
+                        <div class="fb-guest-name">
+                            <p>Мария Синицына</p>
+                            <p>постоянный гость</p>
+                        </div>
+                    </div>
+                    <div class="fb-item-text">
+                        <p>Очень душевное, уютное место с прекрасной атмосферой! И, кстати,
+                            вполне адекватные цены!</p>
+                    </div>
+                </div>
+                <div class="fb-item">
+                    <div class="fb-item-header">
+                        <div class="fb-photo-guest">
+                            <img src="src/images/guest-photos/guest3.png" alt="Guest3">
+                        </div>
+                        <div class="fb-guest-name">
+                            <p>Марина Каганович</p>
+                            <p>постоянный клиент</p>
+                        </div>
+                    </div>
+                    <div class="fb-item-text">
+                        <p>Умопомрачительное место, сходила и не пожалела</p>
+                    </div>
+                </div>
+                <div class="fb-item">
+                    <div class="fb-item-header">
+                        <div class="fb-photo-guest">
+                            <img src="src/images/guest-photos/guest4.jpg" alt="Guest4">
+                        </div>
+                        <div class="fb-guest-name">
+                            <p>Егор Кирилин</p>
+                            <p>постоянный гость</p>
+                        </div>
+                    </div>
+                    <div class="fb-item-text">
+                        <p>Спасибо моей бести за то, что подсказала мне это замечательное место! Это был лучший кальян в
+                            моей жизни!</p>
+                    </div>
+                </div>
+                <div class="fb-item">
+                    <div class="fb-item-header">
+                        <div class="fb-photo-guest">
+                            <img src="src/images/guest-photos/guest5.jpg" alt="Guest5">
+                        </div>
+                        <div class="fb-guest-name">
+                            <p>Полина Сафронова</p>
+                            <p>постоянный гость</p>
+                        </div>
+                    </div>
+                    <div class="fb-item-text">
+                        <p>Мой масик сводил меня туда, и я осталась довольна.</p>
+                    </div>
+                </div>
+                <div class="fb-item">
+                    <div class="fb-item-header">
+                        <div class="fb-photo-guest">
+                            <img src="src/images/guest-photos/guest6.jpg" alt="Guest6">
+                        </div>
+                        <div class="fb-guest-name">
+                            <p>Егор Пичугин</p>
+                            <p>постояный гость</p>
+                        </div>
+                    </div>
+                    <div class="fb-item-text">
+                        <p>Блин, ребят, спасибо, реально кайфовое место, калик вкусный, а напитки отменные.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-info">
+                <a href="#">
+                    <img src="src/images/icons/logo.png" alt="Logo">
+                </a>
+                <p>Все права защищены, 2023</p>
+                <div class="icons">
+                    <a href="#">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="23px" height="20px">
+                            <image x="0px" y="0px" width="23px" height="20px"
+                                   xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAUCAMAAABRYFY8AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABjFBMVEV46v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v/////WEFr3AAAAgnRSTlMAJlATFm/L1ghWs/v5q051/QE9mvHEZhCj0SWD39t/IhRoDdibasfulzoZjvT6KQ9lB1GvsFIekPdFLznImO/8VHv1A7UkoOd6sVvD6GMqpOZwCowafML+4gYd0txkIGB3iun2gNTgNcC0pt3KafN9SJOiCyxHnF/TEoZ+2VnanqozU+PP1gAAAAFiS0dEg/y0z9IAAAAHdElNRQfnCgcQJyDtf5BfAAABM0lEQVQY022R+TcCARDHJ7myXeuMchRpxSKUI5SShByR5MgVIoXcN9+/3G6t6tH8MMfnzZv3nRmiEiYrk/+H5RWVQNUfWK2oYZQqtUZbDNnauno0NDYR6ZoLtEVvQGtbe4fRRNTZJUG5uRsWroe19vbx/TSAQRHahoZ5fsRuI8foGHg10TgmiJycBZNmQZhjip92ad1C44zHS7Mw6GVC7ptz+ecD2gVxQGCRaIlRBR20vOJaXQvpcpj860Qb4U0GhsiWMcpyEt6GIhtN6p3dKLEc9nLi3IhJMvfhozAOpOrw6Hcn03GcTnB6lqsS5/llL5JWtF0qU2LuTV/l+TVuEEsBmVuiO9znudcfScbx8Oh5klEQz4WrvYDBq9D7ln7PfBTdOPSZsGcVfAGaUj+kb6fofwBv0DxUBO5bZgAAAABJRU5ErkJggg=="/>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="20px" height="20px">
+                            <image x="0px" y="0px" width="20px" height="20px"
+                                   xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAY1BMVEV46v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v946v////94TL98AAAAH3RSTlMAK6XpVfm6XEB5GGMl2e7yEwRCcgX6njva+81i0IabaRRcOAAAAAFiS0dEILNrPYAAAAAHdElNRQfnCgcQKBvb7GW0AAAAmklEQVQY032RWRLCIBAFHxAgcWUxsqhw/1tKghJTRdlf0AXMzAMAoSw3GCUoDFzIsSEFH8o5PmHjcDxNnICKH4fz5aoEBZPrThtrjb7N90wkQx4X53yIMXj3eL4w5irdnBSg0uzK5iO1T/XJ5HWTJqgqVTBN2vitHu1/2b3eLdRtaWseVe7GXJdlzH0gCyWQfXSFJbpuyL3veAN3Ng6fXubgTwAAAABJRU5ErkJggg=="/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li>Информация</li>
+                    <li><a href="#menu" class="watch">Меню</a></li>
+                    <li><a href="#places">3D-тур по залам</a></li>
+                    <li><a href="#order">Бронирование столика</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-work">
+                <ul>
+                    <li>Контакты</li>
+                    <li>+7 (964) 837-73-74</li>
+                    <li>Нижний Новгород, Ильинская улица, 3</li>
+                    <li>Вс-Чт 12:00-02:00</li>
+                    <li>Пт-Сб 12:00-06:00</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<div class="loader-block">
+    <span class="loader"></span>
+</div>
+<script src="dist/scripts/plugins/jquery.min.js"></script>
+<script src="dist/scripts/plugins/jquery.maskedinput.min.js"></script>
+<script src="dist/scripts/plugins/wow.min.js"></script>
+<script src="dist/scripts/plugins/slick.min.js"></script>
+<script src="dist/scripts/script.min.js"></script>
+</body>
+</html>
